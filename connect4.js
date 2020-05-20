@@ -138,7 +138,7 @@ function handleClick(evt) {
  // check for win
  if (checkForWin()) {
     let winner = currPlayer ===1 ? name1.value : name2.value;
-    document.body.style.backgroundColor = currPlayer ===1 ? color1.value : name1.value;
+    document.body.style.backgroundColor = currPlayer ===1 ? color1.value : color2.value;
    return endGame(`${winner} won!`);
  }
 
